@@ -11,9 +11,11 @@
     "module": "ESNext",
     "strict": true,
     "skipLibCheck": true,
-    "noEmit": true,
     // Ensure that Babel can safely transpile files in the TypeScript project
-    "isolatedModules": true
+    "isolatedModules": true,
+    "declaration": true,
+    "noEmit": false,
+    "outDir": "dist"
   },
   "include": ["src", "types"]
 }

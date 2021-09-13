@@ -2,6 +2,7 @@
   "name": "@hagishi/react-ui",
   "version": "1.0.0",
   "license": "MIT",
+  "main": "dist/components/index.js",
   "babelMacros": {
     "twin": {
       "preset": "styled-components"
