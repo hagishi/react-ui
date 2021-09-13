@@ -13,6 +13,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "exports": {
+    ".": "./src/components/index.ts"
+  },
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
